@@ -29,6 +29,13 @@ public class TestMoodAnaluzer {
 	     assertEquals("SAD",mood2.testMoodForSadwithConstructor());
 
 	}
+	@Test
+	public void testMoodForNoOrNullUsingConstructor() {
+	     MoodAnalyzer mood2=new MoodAnalyzer(null);
+	     assertEquals("HAPPY",mood2.testMoodForNoOrNullUsingConstructor());
+
+	}
+
 
 	
 	
